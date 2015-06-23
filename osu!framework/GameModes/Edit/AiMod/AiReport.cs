@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using osu.GameModes.Edit.AiMod.Reports;
 using osu.GameplayElements.HitObjects;
 using System;
+using osu.Graphics;
 
 namespace osu.GameModes.Edit.AiMod
 {
@@ -32,7 +33,7 @@ namespace osu.GameModes.Edit.AiMod
         /// <summary>
         /// Draws this instance.
         /// </summary>
-        public virtual void Draw()
+        public virtual void Draw(DrawInfo drawInfo)
         {
 
         }
